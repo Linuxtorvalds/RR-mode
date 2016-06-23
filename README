@@ -1,0 +1,1 @@
+多线程RR-mode，主线程接收到客户端链接后通过管道轮循分发给不同的线程处理，通过curl-loader  -f  ./conf-examples/60k.conf 测试，单核并发量达到20k
